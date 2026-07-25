@@ -1,62 +1,123 @@
-# 🛒 Ecommerce Sales Analysis
+# 📊 Ecommerce Sales Analysis Dashboard
 
-## 📊 Project Overview
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-green?style=for-the-badge)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-This project performs end-to-end data analysis on ecommerce sales data using SQL, Excel, and Power BI to generate meaningful business insights.
+## 📖 Overview
 
----
+An end-to-end ecommerce sales analytics project that transforms raw transactional data into meaningful business insights using **SQL**, **Excel**, and **Power BI**.
 
-## 🛠 Tools & Technologies
-
-* SQL – Data cleaning and analysis
-* Excel – Data processing and pivot analysis
-* Power BI – Dashboard creation and visualization
-
----
-
-## 📂 Project Structure
-
-* **data/** → Raw dataset
-* **sql/** → Data cleaning and analysis queries
-* **excel/** → Processed data and analysis
-* **powerbi/** → Final dashboard file
-* **images/** → Dashboard screenshots
+The project follows a structured analytics workflow covering data import, cleaning, analysis, and dashboard development to support data-driven decision-making.
 
 ---
 
-## 📈 Key Insights
+## 🎯 Objectives
 
-* Revenue peaked in December and dropped significantly in February
-* Top 10 products contribute a major portion of total revenue
-* A small number of customers generate most of the revenue
-* Revenue distribution varies across different countries
-
----
-
-## 📊 Dashboard Features
-
-* KPI Cards (Total Revenue, Customers, Orders)
-* Monthly Revenue Trend
-* Top 10 Products by Revenue
-* Top 10 Customers by Revenue
-* Revenue by Country
+- Import and prepare raw ecommerce sales data
+- Clean and validate the dataset using SQL
+- Analyze sales performance and customer behavior
+- Build an interactive Power BI dashboard
+- Generate actionable business insights
 
 ---
 
-## 📷 Dashboard Preview
+## 🛠 Tech Stack
 
-![Dashboard](images/dashboard_overview.png)
-
-![KPI Trend](images/kpi_trend.png)
-
-![Product Customer](images/product_customer.png)
-
-![Region](images/region.png)
+- **SQL (MySQL)**
+- **Microsoft Excel**
+- **Power BI**
 
 ---
 
-## 📁 Files Included
+## 📂 Repository Structure
 
-* SQL scripts (.sql)
-* Excel analysis file (.xlsx)
-* Power BI dashboard (.pbix)
+```text
+├── data/
+│   └── raw_ecommerce_data.csv
+│
+├── sql/
+│   ├── 01_data_import.sql
+│   ├── 02_data_cleaning.sql
+│   └── 03_data_analysis.sql
+│
+├── excel/
+│   └── ecommerce_analysis.xlsx
+│
+├── powerbi/
+│   └── ecommerce_dashboard.pbix
+│
+├── images/
+│   ├── dashboard_overview.png
+│   ├── kpi_trend.png
+│   ├── product_customer.png
+│   └── region.png
+│
+└── README.md
+```
+
+---
+
+## 💡 Skills Demonstrated
+
+- SQL Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- KPI Reporting
+- Excel Pivot Analysis
+- Business Intelligence
+- Interactive Dashboard Development
+
+---
+
+# 📸 Dashboard Walkthrough
+
+## Dashboard Overview
+
+A consolidated dashboard providing insights into revenue, orders, customers, and overall business performance.
+
+![Dashboard Overview](images/dashboard_overview.png)
+
+---
+
+## KPI & Revenue Trends
+
+Monitors key business metrics and monthly revenue trends to evaluate sales performance.
+
+![KPI Trends](images/kpi_trend.png)
+
+---
+
+## Product & Customer Analysis
+
+Highlights top-performing products and high-value customers based on revenue contribution.
+
+![Product & Customer Analysis](images/product_customer.png)
+
+---
+
+## Regional Sales Analysis
+
+Compares sales performance across different countries to identify regional trends and high-performing markets.
+
+![Regional Sales Analysis](images/region.png)
+
+---
+
+## 📈 Key Business Insights
+
+- Identified monthly sales trends and seasonal revenue patterns.
+- Evaluated revenue contribution across products and customer segments.
+- Identified top-performing products and high-value customers.
+- Compared sales performance across different geographical regions.
+- Built an interactive dashboard to support business reporting and decision-making.
+
+---
+
+## 🚀 Technical Highlights
+
+- Built an end-to-end analytics workflow using SQL, Excel, and Power BI.
+- Performed data cleaning and exploratory analysis before visualization.
+- Designed an interactive dashboard to monitor KPIs and sales performance.
+- Converted raw transactional data into actionable business insights through business intelligence reporting.
